@@ -61,11 +61,7 @@ h1, h2 {
 }
 
 /* Pseudo-element to style first letter in the About Us section */
-#about p::first-letter {
-  font-size: 2em;
-  font-weight: bold;
-  color: #ff4757;
-}
+
 
 /* Hover effect for restaurant cards */
 .restaurant-card:hover {
@@ -252,33 +248,7 @@ h1, h2 {
 	gap: 10px;
 }
 
-#location_icon{
-	color: rgb(239,79,95);
-	margin-top: -4px;
-}
 
-#search_icon{
-	color: rgb(239,79,95);
-	margin-right: 3px;
-}
-
-.hero__section_input_location, .hero__section_input_search{
-	border: none;
-	padding-top: 4px;
-	padding-bottom: 4px;
-}
-
-
-.hero__section_input_location{
-	width: 35%;
-	border-right: 2px solid #C0C0C0;
-	color: gray;
-	font-size: 12.9px;
-}
-
-.hero__section_input_search{
-	width: 65%;
-}
 .footer__container{
 	width: 100;
 	margin: 4rem auto;
